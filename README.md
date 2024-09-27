@@ -26,6 +26,8 @@
 ```bash
 git clone https://github.com/skoroinc/SKBKonturInternshipProject.git
 cd SKBKonturInternshipProject
+```
+
 
 ### Настройка базы данных
 
