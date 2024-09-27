@@ -47,20 +47,20 @@ dotnet ef database update
 Запустите приложение с помощью следующей команды:
 dotnet run
 
-API будет доступно по адресу http://localhost:5000/api/products.
+API будет доступно по адресу http://localhost:5136/api/products.
 
 ## Использование
 
 ### CRUD операции
 
 1. Получить все продукты
-   - GET http://localhost:5000/api/products
+   - GET http://localhost:5136/api/products
 
 2. Получить продукт по ID
-   - GET http://localhost:5000/api/products/{id}
+   - GET http://localhost:5136/api/products/{id}
 
 3. Создать новый продукт
-   - POST http://localhost:5000/api/products
+   - POST http://localhost:5136/api/products
    - Тело запроса (JSON):
     
      {
@@ -70,7 +70,7 @@ API будет доступно по адресу http://localhost:5000/api/prod
      }
      
 4. Обновить продукт
-   - PUT http://localhost:5000/api/products/{id}
+   - PUT http://localhost:5136/api/products/{id}
    - Тело запроса (JSON):
     
      {
@@ -81,7 +81,7 @@ API будет доступно по адресу http://localhost:5000/api/prod
      }
      
 5. Удалить продукт
-   - DELETE http://localhost:5000/api/products/{id}
+   - DELETE http://localhost:5136/api/products/{id}
 
 
 ## Контакты
