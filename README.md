@@ -34,11 +34,11 @@ cd SKBKonturInternshipProject
 1. Создайте базу данных в SQL Server (или используйте существующую).
 2. Измените строку подключения в appsettings.json для подключения к вашей базе данных:
 
-  
+  ```
    "ConnectionStrings": {
        "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
    }
-   
+   ```
 3. Примените миграции, чтобы создать таблицы:
 dotnet ef database update
 
